@@ -7,7 +7,7 @@ data <- read.csv(unz(
     "household_power_consumption.txt"), header=T,  sep=";", stringsAsFactors = FALSE)
 
 #   Subset to only include 2 days:  2/1/07 - 2/2/07
-plotData <- data[as.Date(dmy(wdf$Date)) == "2007-02-01" | as.Date(dmy(wdf$Date)) == "2007-02-02",]
+plotData <- data[as.Date(dmy(data$Date)) == "2007-02-01" | as.Date(dmy(data$Date)) == "2007-02-02",]
 
 #   Add DateTime column from date column and time column in posix format for plots
 plotData$DateTime <- strptime(paste(dmy(plotData$Date),plotData$Time), format="%Y-%m-%d %H:%M:%S")
