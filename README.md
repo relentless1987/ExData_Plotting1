@@ -1,5 +1,4 @@
-## 	Exploratory Data Analysis
-##	Peer Assessment 1
+## 	Exploratory Data Analysis Peer Assessment 1
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -33,5 +32,8 @@ web site</a>:
 <li><b>Sub_metering_2</b>: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. </li>
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
+
+4 R files created:  plot1.R, plot2.R, plot3.R, and plot4.Repository
+Each one outputs a a single PNG to match plot1, plot2, plot3, plot4, respectively.
 
 
